@@ -43,7 +43,7 @@ int main() {
         fullname[i]=Fname[i];
     } 
 
-    fullname[5]= ' ';
+    fullname[5]= '  ';
 
     for(i=0 ; i<5 ; i++)
     {
