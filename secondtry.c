@@ -22,7 +22,7 @@ printf("Full Name: \n");
 
 
 #include <stdio.h>
-
+#include <string.h>
 
 int main() {
     char Fname[10];
@@ -33,7 +33,7 @@ int main() {
     printf("Enter First Name ");
     scanf("%s", Fname);
     printf("The first name is: %s \n", Fname);
-
+    printf("The length of the string is: %d\n", strlen(Fname));
     printf("Enter Last Name ");
     scanf("%s", Lname);
     printf("The last name is: %s \n", Lname);
