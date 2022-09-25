@@ -17,3 +17,6 @@ rm -r <name of the folder>: deletes the folder and all the files inside it
 rm : deletes a file
 
 git clone <url>: clones all of another persons files
+
+git push
+git add
