@@ -1,0 +1,19 @@
+mkdir - creates a directory
+ls - list all files
+cd- change directory
+ls -al: list all files with permission in user group details
+pwd: present working directory
+sudo: superuser do
+sudo apt install: installs any package 
+
+
+
+Struct: multiple arrays/details
+string: collection of chars
+gcc: compiler that makes the human readable into machine readable
+
+rm -r <name of the folder>: deletes the folder and all the files inside it
+
+rm : deletes a file
+
+git clone <url>: clones all of another persons files
