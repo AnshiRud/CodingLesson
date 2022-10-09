@@ -16,4 +16,4 @@ int main() {
     scanf("%s", name);
     printf("The Entered Name is: %c ", name[0]);
 
-}
+} 

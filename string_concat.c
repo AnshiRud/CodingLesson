@@ -25,29 +25,33 @@ printf("Full Name: \n");
 #include <string.h>
 
 int main() {
-    char Fname[10];
-    char Lname[10];
-    char fullname[11];
+    char Fname[100];
+    char Lname[100];
+    char fullname[100];
     int i, j;
+    int length;
+    int lastlength;
 
     printf("Enter First Name ");
     scanf("%s", Fname);
+    length = strlen(Fname);
     printf("The first name is: %s \n", Fname);
-    printf("The length of the string is: %d\n", strlen(Fname));
+    //printf("The length of the string is: %d\n", strlen(Fname));
     printf("Enter Last Name ");
     scanf("%s", Lname);
+    lastlength = strlen(Lname);
     printf("The last name is: %s \n", Lname);
     
-    for(i=0 ; i<5 ; i++)
+    for(i=0 ; i<length ; i++)
     {
         fullname[i]=Fname[i];
     } 
 
-    fullname[5]= '  ';
+    fullname[length]= ' ';
 
-    for(i=0 ; i<5 ; i++)
+    for(i=0 ; i<lastlength ; i++)
     {
-        fullname[i+6]=Lname[i];
+        fullname[i+length+1]=Lname[i];
     }
     printf("The full name is: %s \n", fullname);
 }
